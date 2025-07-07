@@ -28,7 +28,7 @@ The Prototype pattern delegates the cloning process to the actual objects that a
 
 ⚠️ Requires implementing a cloning mechanism which might be complex.
 
-## Real-World Applications of Factory Method Pattern in Java
+## Real-World Applications of Prototype Method Pattern in Java
 
 * In Java, the `Object.clone()` method is a classic implementation of the Prototype pattern.
 * GUI libraries often use prototypes for creating buttons, windows, and other widgets.
