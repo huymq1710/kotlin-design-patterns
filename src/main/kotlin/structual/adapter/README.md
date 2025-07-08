@@ -21,6 +21,10 @@ You can create an adapter. This is a special object that converts the interface 
 
 ![solution.png](https://refactoring.guru/images/patterns/diagrams/adapter/solution-en-2x.png)
 
+Example code:
+
+![Example.png](https://www.grubbadvertising.com/uploads/1/2/3/9/123923775/shutterstock-39299461_1_orig.jpg)
+
 ## Structure
 ### Object adapter
 
