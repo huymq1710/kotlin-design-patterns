@@ -41,3 +41,17 @@ Wearing clothes is an example of using decorators. When you’re cold, you wrap 
 -   All subclasses of [`java.io.InputStream`](http://docs.oracle.com/javase/8/docs/api/java/io/InputStream.html), [`OutputStream`](http://docs.oracle.com/javase/8/docs/api/java/io/OutputStream.html), [`Reader`](http://docs.oracle.com/javase/8/docs/api/java/io/Reader.html) and [`Writer`](http://docs.oracle.com/javase/8/docs/api/java/io/Writer.html) have constructors that accept objects of their own type.
 -   [`java.util.Collections`](http://docs.oracle.com/javase/8/docs/api/java/util/Collections.html), methods [`checkedXXX()`](http://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#checkedCollection-java.util.Collection-java.lang.Class-), [`synchronizedXXX()`](http://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#synchronizedCollection-java.util.Collection-) and [`unmodifiableXXX()`](http://docs.oracle.com/javase/8/docs/api/java/util/Collections.html#unmodifiableCollection-java.util.Collection-).
 -   [`javax.servlet.http.HttpServletRequestWrapper`](http://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServletRequestWrapper.html) and [`HttpServletResponseWrapper`](http://docs.oracle.com/javaee/7/api/javax/servlet/http/HttpServletResponseWrapper.html)
+
+## Pseudocode
+
+In this example, the **Decorator** pattern lets you compress and encrypt sensitive data independently from the code that actually uses this data.
+
+![Structure of the Decorator pattern example](https://refactoring.guru/images/patterns/diagrams/decorator/example.png)
+
+The encryption and compression decorators example.
+
+The application wraps the data source object with a pair of decorators. Both wrappers change the way the data is written to and read from the disk:
+
+-   Just before the data is **written to disk**, the decorators encrypt and compress it. The original class writes the encrypted and protected data to the file without knowing about the change.
+
+-   Right after the data is **read from disk**, it goes through the same decorators, which decompress and decode it.
