@@ -1,4 +1,4 @@
-package struction.facade
+package struction.facade.mediaLib
 
 // VideoFile.kt
 class VideoFile(private val name: String) {

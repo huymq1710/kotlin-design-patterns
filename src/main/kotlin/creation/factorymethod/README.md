@@ -2,6 +2,9 @@
 
 * Virtual Constructor
 
+- Complexity: ⭐⭐
+- Popularity: ⭐⭐⭐
+
 ## Intent of Factory Method Design Pattern
 
 Define an interface for creating an object using the Factory Method Pattern, but let subclasses decide which class to instantiate.

@@ -2,6 +2,9 @@
 
 **Decorator** is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
 
+- Complexity: ⭐⭐
+- Popularity: ⭐⭐
+
 ## Problem
 
 Imagine that you’re working on a notification library which lets other programs notify their users about important events.

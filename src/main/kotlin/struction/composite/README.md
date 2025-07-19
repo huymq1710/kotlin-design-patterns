@@ -4,6 +4,9 @@
 
 ![Composite design pattern](https://refactoring.guru/images/patterns/content/composite/composite.png)
 
+- Complexity: ⭐⭐
+- Popularity: ⭐⭐
+
 ## Problem
 
 Using the Composite pattern makes sense only when the core model of your app can be represented as a tree.

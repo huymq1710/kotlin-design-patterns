@@ -7,6 +7,8 @@
 ![Facade design pattern](https://refactoring.guru/images/patterns/content/facade/facade.png)
 
 ---
+- Complexity: ⭐
+- Popularity: ⭐⭐
 
 ## **Problem**
 

@@ -1,4 +1,6 @@
 ## Intent
+- Complexity: ⭐⭐
+- Popularity: ⭐⭐⭐
 
 Lets you construct complex objects step by step. 
 

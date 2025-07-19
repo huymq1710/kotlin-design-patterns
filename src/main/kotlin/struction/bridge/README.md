@@ -4,6 +4,9 @@
 
 ![adapter.png](https://refactoring.guru/images/patterns/content/bridge/bridge-1.5x.png)
 
+- Complexity: ⭐⭐⭐
+- Popularity: ⭐
+
 ## Problem
 
 > Say you have a geometric Shape class with a pair of subclasses: Circle and Square. You want to extend this class hierarchy to incorporate colors, so you plan to create Red and Blue shape subclasses.

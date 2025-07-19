@@ -1,6 +1,8 @@
 ## Also known as
 
 * Kit
+- Complexity: ⭐
+- Popularity: ⭐⭐⭐
 
 ![img.png](https://refactoring.guru/images/patterns/content/abstract-factory/abstract-factory-en-1.5x.png)
 

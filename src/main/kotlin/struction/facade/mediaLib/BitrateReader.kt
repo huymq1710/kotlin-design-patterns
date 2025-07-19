@@ -1,4 +1,4 @@
-package struction.facade
+package struction.facade.mediaLib
 
 object BitrateReader {
     fun read(file: VideoFile, codec: Codec): VideoFile {

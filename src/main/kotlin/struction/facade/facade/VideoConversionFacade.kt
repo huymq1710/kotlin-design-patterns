@@ -1,5 +1,6 @@
-package struction.facade
+package struction.facade.facade
 
+import struction.facade.mediaLib.*
 import java.io.File
 
 class VideoConversionFacade {

@@ -3,6 +3,8 @@
 The Prototype pattern is used to specify the kinds of objects to create using a prototypical instance, 
 and create new instances through object cloning.
 
+- Complexity: ⭐
+- Popularity: ⭐⭐
 ## Problem
 
 > Hãy tưởng tượng một công ty sản xuất đồ nội thất theo thiết kế riêng. 

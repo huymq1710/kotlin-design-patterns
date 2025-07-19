@@ -2,6 +2,9 @@
 
 Ensure a Java class only has one instance, and provide a global point of access to this singleton instance.
 
+- Complexity: ⭐
+- Popularity: ⭐⭐
+
 ## Problem
 
 > Chính phủ cấp hộ chiếu:

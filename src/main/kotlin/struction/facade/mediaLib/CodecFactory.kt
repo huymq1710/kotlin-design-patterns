@@ -1,4 +1,4 @@
-package struction.facade
+package struction.facade.mediaLib
 
 object CodecFactory {
     fun extract(file: VideoFile): Codec {
