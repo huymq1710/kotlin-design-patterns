@@ -41,7 +41,9 @@ Command pattern đề xuất:
 - Tránh trùng lặp mã
 
 ![The GUI layer may access the business logic layer directly](https://refactoring.guru/images/patterns/diagrams/command/solution1-en.png)
+
 ![Accessing the business logic layer via a command.](https://refactoring.guru/images/patterns/diagrams/command/solution2-en.png)
+
 ![The GUI objects delegate the work to commands](https://refactoring.guru/images/patterns/diagrams/command/solution3-en.png)
 
 Ví dụ: thay vì tạo `CopyButton`, `PasteButton`, bạn chỉ cần:
