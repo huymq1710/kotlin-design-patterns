@@ -1,10 +1,12 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
-    kotlin("jvm") version "1.5.10"
+    kotlin("jvm") version "1.9.22"
 }
 
-group = "me.marcoscouto"
+kotlin {
+    jvmToolchain(21)
+}
+
+group = "me.huymac"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -13,12 +15,9 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 }
 
 tasks.test {
     useJUnitPlatform()
-}
-
-tasks.withType<KotlinCompile>() {
-    kotlinOptions.jvmTarget = "11"
 }
