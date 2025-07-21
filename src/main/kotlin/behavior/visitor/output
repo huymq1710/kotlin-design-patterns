@@ -1,0 +1,63 @@
+"C:\Program Files\Java\jdk-22\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\lib\idea_rt.jar=54564:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Admin\Documents\GitHub\kotlin-design-patterns\build\classes\kotlin\main;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.9.22\d6c44cd08d8f3f9bece8101216dbe6553365c6e3\kotlin-stdlib-1.9.22.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.7.3\2b09627576f0989a436a00a4a54b55fa5026fb86\kotlinx-coroutines-core-jvm-1.7.3.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\23.0.0\8cc20c07506ec18e0834947b84a864bfc094484e\annotations-23.0.0.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\1.8.20\73576ddf378c5b4f1f6b449fe6b119b8183fc078\kotlin-stdlib-jdk8-1.8.20.jar;C:\Users\Admin\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.8.20\3aa51faf20aae8b31e1a4bc54f8370673d7b7df4\kotlin-stdlib-jdk7-1.8.20.jar behavior.visitor.DemoKt
+--- XML Export ---
+<?xml version="1.0" encoding="utf-8"?>
+<circle>
+    <id>2</id>
+    <x>23</x>
+    <y>15</y>
+    <radius>10</radius>
+</circle>
+<compound_graphic>
+   <id>4</id>
+    <dot>
+        <id>1</id>
+        <x>10</x>
+        <y>55</y>
+    </dot>
+    <circle>
+        <id>2</id>
+        <x>23</x>
+        <y>15</y>
+        <radius>10</radius>
+    </circle>
+    <rectangle>
+        <id>3</id>
+        <x>10</x>
+        <y>17</y>
+        <width>20</width>
+        <height>30</height>
+    </rectangle>
+    <compound_graphic>
+       <id>5</id>
+        <dot>
+            <id>1</id>
+            <x>10</x>
+            <y>55</y>
+        </dot>
+    </compound_graphic>
+</compound_graphic>
+
+--- Area Calculation ---
+Circle 2: Area = 314.16
+Compound Shape 4:
+  - Dot 1: Area = 0
+  - Circle 2: Area = 314.16
+  - Rectangle 3: Area = 600
+  - Compound Shape 5:
+  - Dot 1: Area = 0
+  Total Area = 0.00
+  Total Area = 914.16
+
+
+--- Shape Operations ---
+Drawing dot 1 at position (10, 55)
+Drawing circle 2 at position (23, 15) with radius 10
+Drawing rectangle 3 at position (10, 17) with size 20x30
+Drawing compound shape 4
+Drawing dot 1 at position (10, 55)
+Drawing circle 2 at position (23, 15) with radius 10
+Drawing rectangle 3 at position (10, 17) with size 20x30
+Drawing compound shape 5
+Drawing dot 1 at position (10, 55)
+
+Process finished with exit code 0
