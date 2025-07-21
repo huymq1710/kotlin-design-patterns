@@ -56,6 +56,8 @@ This project was inspired by and learned from:
 
 - 📘 [Refactoring Guru's Design Patterns](https://refactoring.guru/design-patterns)
 - ☕ [Java Design Patterns](https://github.com/iluwatar/java-design-patterns)
+- 📦 [SOLID - huymac's note](https://huymac.atlassian.net/wiki/x/AQANAQ)
+- 📦 [Refactor - huymac's note](https://huymac.atlassian.net/wiki/x/EwANAQ)
 
 ## ▶️ Usage
 
