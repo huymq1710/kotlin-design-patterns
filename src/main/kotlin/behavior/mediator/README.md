@@ -2,6 +2,9 @@
 
 Còn được gọi là: Trung gian, Điều phối viên, Bộ điều khiển trung tâm
 
+- Complexity: ⭐⭐
+- Popularity: ⭐⭐
+
 ## Ý tưởng chính
 
 **Mediator** là một mẫu thiết kế hành vi (behavioral pattern) giúp giảm sự phụ thuộc lẫn nhau giữa các đối tượng. Thay vì các đối tượng giao tiếp trực tiếp, chúng sẽ tương tác thông qua một *đối tượng trung gian* gọi là Mediator.
