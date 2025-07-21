@@ -89,7 +89,6 @@ object Demo {
 /**
  * Example output:
  *
- * C:\Program Files\Java\jdk-22\bin\java.exe ... behavior.strategy.Demo
  * Please, select a product:
  * 1 - Mother board
  * 2 - CPU
