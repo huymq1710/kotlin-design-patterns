@@ -1,7 +1,7 @@
 package behavior.mediator.workflow.components.impl
 
 import behavior.mediator.workflow.components.WorkflowComponent
-import behavior.mediator.workflow.dataclass.LeaveRequest
+import behavior.mediator.workflow.LeaveRequest
 import behavior.mediator.workflow.mediator.WorkflowMediator
 
 // RequestSubmitter.kt - Người gửi đơn

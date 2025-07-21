@@ -1,10 +1,10 @@
 package behavior.mediator.workflow.mediator
 
 import behavior.mediator.workflow.components.WorkflowComponent
-import behavior.mediator.workflow.dataclass.ApprovalDecision
-import behavior.mediator.workflow.dataclass.LeaveRequest
-import behavior.mediator.workflow.dataclass.NotificationType
-import behavior.mediator.workflow.dataclass.WorkflowStatus
+import behavior.mediator.workflow.ApprovalDecision
+import behavior.mediator.workflow.LeaveRequest
+import behavior.mediator.workflow.NotificationType
+import behavior.mediator.workflow.WorkflowStatus
 
 interface WorkflowMediator {
     fun registerComponent(component: WorkflowComponent)

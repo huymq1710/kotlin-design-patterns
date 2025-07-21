@@ -1,10 +1,10 @@
 package behavior.mediator.workflow.mediator.impl
 
+import behavior.mediator.workflow.*
 import behavior.mediator.workflow.components.WorkflowComponent
 import behavior.mediator.workflow.components.impl.AuditLogger
 import behavior.mediator.workflow.components.impl.NotificationSystem
 import behavior.mediator.workflow.components.impl.WorkflowDashboard
-import behavior.mediator.workflow.dataclass.*
 import behavior.mediator.workflow.mediator.WorkflowMediator
 
 class WorkflowManager : WorkflowMediator {
