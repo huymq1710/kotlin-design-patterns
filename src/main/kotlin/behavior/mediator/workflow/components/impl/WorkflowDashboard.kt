@@ -1,7 +1,7 @@
 package behavior.mediator.workflow.components.impl
 
 import behavior.mediator.workflow.components.WorkflowComponent
-import behavior.mediator.workflow.dataclass.WorkflowStatus
+import behavior.mediator.workflow.WorkflowStatus
 import behavior.mediator.workflow.mediator.WorkflowMediator
 
 // WorkflowDashboard.kt - Bảng điều khiển

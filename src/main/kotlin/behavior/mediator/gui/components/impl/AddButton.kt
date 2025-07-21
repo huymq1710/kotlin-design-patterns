@@ -2,7 +2,7 @@ package behavior.mediator.gui.components.impl
 
 import behavior.mediator.gui.components.Component
 import behavior.mediator.gui.mediator.Mediator
-import behavior.mediator.gui.dataclass.Note
+import behavior.mediator.gui.Note
 import java.awt.event.ActionEvent
 import javax.swing.JButton
 

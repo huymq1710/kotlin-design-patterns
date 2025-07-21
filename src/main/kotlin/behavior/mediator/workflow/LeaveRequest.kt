@@ -1,4 +1,4 @@
-package behavior.mediator.workflow.dataclass
+package behavior.mediator.workflow
 
 data class LeaveRequest(
     val id: String,

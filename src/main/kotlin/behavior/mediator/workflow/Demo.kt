@@ -1,9 +1,6 @@
 package behavior.mediator.workflow
 
 import behavior.mediator.workflow.components.impl.*
-import behavior.mediator.workflow.dataclass.ApprovalDecision
-import behavior.mediator.workflow.dataclass.LeaveRequest
-import behavior.mediator.workflow.dataclass.LeaveType
 import behavior.mediator.workflow.mediator.impl.WorkflowManager
 
 fun main() {

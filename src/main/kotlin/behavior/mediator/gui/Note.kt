@@ -1,4 +1,4 @@
-package behavior.mediator.gui.dataclass
+package behavior.mediator.gui
 
 
 /**

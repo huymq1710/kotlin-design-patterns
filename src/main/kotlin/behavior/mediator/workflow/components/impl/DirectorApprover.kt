@@ -1,7 +1,7 @@
 package behavior.mediator.workflow.components.impl
 
 import behavior.mediator.workflow.components.WorkflowComponent
-import behavior.mediator.workflow.dataclass.ApprovalDecision
+import behavior.mediator.workflow.ApprovalDecision
 import behavior.mediator.workflow.mediator.WorkflowMediator
 
 // DirectorApprover.kt - Giám đốc

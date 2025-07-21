@@ -3,7 +3,7 @@ package behavior.mediator.gui.mediator.impl
 import behavior.mediator.gui.components.Component
 import behavior.mediator.gui.components.impl.*
 import behavior.mediator.gui.mediator.Mediator
-import behavior.mediator.gui.dataclass.Note
+import behavior.mediator.gui.Note
 import java.awt.*
 import javax.swing.*
 import javax.swing.border.LineBorder

@@ -1,7 +1,7 @@
 package behavior.mediator.gui.mediator
 
 import behavior.mediator.gui.components.Component
-import behavior.mediator.gui.dataclass.Note
+import behavior.mediator.gui.Note
 import javax.swing.ListModel
 
 /**
